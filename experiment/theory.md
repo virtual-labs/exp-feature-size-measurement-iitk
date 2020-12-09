@@ -69,11 +69,5 @@ A1) Image of circular features      A2) 3-D profile may be sphere     A3) 3-D pr
 
 3.Feature length depends upon sectioning location as well. For example, in a lamellar structure, the ‘angle of cut’ during sectioning may show different spacing between the lamellae (such as in pearlite, Fig. A4), because cuts are NOT perpendicular to each grain in that region. So, we should be careful in not to over-interpret the results. <br>
 <img src="images/th9.PNG"><br>
- Fig. A4: The non-perpendicular section of lamellas (or parallel features) may appear as lines with varying spacing. <br>
- <video width="320" height="240" controls>
-  <source src="images/exp2-featureSize.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video><br>
-Fig:Video on Feature Size measurement: Porosity, Grain, and Reinforcement
- 
+ Fig. A4: The non-perpendicular section of lamellas (or parallel features) may appear as lines with varying spacing. 
  

@@ -19,7 +19,7 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Name of the Focus area as per handout
+#### 1. Focus Area : Instrumentation and Practical skills
 
 #### 2. Learning Objectives and Cognitive Level
 
