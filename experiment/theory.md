@@ -71,7 +71,7 @@ A1) Image of circular features      A2) 3-D profile may be sphere     A3) 3-D pr
 <img src="images/th9.PNG"><br>
  Fig. A4: The non-perpendicular section of lamellas (or parallel features) may appear as lines with varying spacing. 
  <video width="320" height="240" controls>
-  <source src="exp2-featureSize.mp4" type="video/mp4">
+  <source src="images/exp2-featureSize.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>Video on Feature Size measurement: Porosity, Grain, and Reinforcement
  
