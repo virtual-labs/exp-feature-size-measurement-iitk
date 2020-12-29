@@ -2,16 +2,15 @@
 
 It may be noted that the size, content and distribution of the microstructural features decide the emanating properties of the bulk material. Thus, it is very important to be able to observe the feature shape, and estimate the feature size, and also be able to estimate the content of the second phase (which can be reinforcement or even porosity).<br><br>
 <b>Identification of Features: </b></div>
- <!-- <div style="float:left;width:40%;border: solid 1 px black; border: 1px solid black"> <video width="320" height="240" controls>
-  <source src="images/exp2-featureSize.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video><br>Video on Feature Size measurement:<br> Porosity, Grain, and Reinforcement</div> -->
-<div style="float:left;width:40%;border: solid 1 px black;"><video width="320" height="240" controls>
+ 
+<div style="float:left;width:40%;border: solid 1 px black;">
+<video width="320" height="240" controls>
   <source src="images/exp2-featureSize.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>Video on Feature Size measurement:<br> Porosity, Grain, and Reinforcement</div>
  </div> 
 <div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
+<div style ="text-align: justify;text-justify: inter-word;">
 The reinforcements or secondary phase can be either be a particulate of rounded shape, or acicular (needle shape, Fig. 1a) or faceted or cuboidal shape or even irregular shape. Or the second phase may be continuous (as a fibre or along the grain boundary (Fig. 1b) or interconnected). So, it is important to observe the nature and morphology of the matrix and the second phase. The size, distribution and content of the second phase is also very important. The second phase may be spherical, but the size of those particles may be coarse (Fig. 1c) or fine (Fig. 1d). And finer particles usually provide superior mechanical properties because of better dispersion (or rendering homogeneous microstructure) of the composite/alloy<br>
 <img src="images/th1.PNG"><br>
  Fig. 1: Various features a) Acicular (needle-like), b) continuous phase along grain boundary, c) rounded coarse particles, and d) rounded fine particles reinforced in a matrix. <br><br>
@@ -78,7 +77,7 @@ A1) Image of circular features      A2) 3-D profile may be sphere     A3) 3-D pr
 
 3.Feature length depends upon sectioning location as well. For example, in a lamellar structure, the ‘angle of cut’ during sectioning may show different spacing between the lamellae (such as in pearlite, Fig. A4), because cuts are NOT perpendicular to each grain in that region. So, we should be careful in not to over-interpret the results. <br>
 <img src="images/th9.PNG"><br>
- Fig. A4: The non-perpendicular section of lamellas (or parallel features) may appear as lines with varying spacing. 
+ Fig. A4: The non-perpendicular section of lamellas (or parallel features) may appear as lines with varying spacing. </div>
  
  
  
