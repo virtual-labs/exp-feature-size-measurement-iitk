@@ -4,7 +4,14 @@ It may be noted that the size, content and distribution of the microstructural f
 <b>Identification of Features: </b></div><div style="float:left;width:40%;border: solid 1 px black;"> <video width="320" height="240" controls>
   <source src="images/exp2-featureSize.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>Video on Feature Size measurement: Porosity, Grain, and Reinforcement</div> </div>
+</video><br>Video on Feature Size measurement: Porosity, Grain, and Reinforcement</div> </div><br>
+<div style = ".clearfix {zoom: 1}
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}"></div>
 
 The reinforcements or secondary phase can be either be a particulate of rounded shape, or acicular (needle shape, Fig. 1a) or faceted or cuboidal shape or even irregular shape. Or the second phase may be continuous (as a fibre or along the grain boundary (Fig. 1b) or interconnected). So, it is important to observe the nature and morphology of the matrix and the second phase. The size, distribution and content of the second phase is also very important. The second phase may be spherical, but the size of those particles may be coarse (Fig. 1c) or fine (Fig. 1d). And finer particles usually provide superior mechanical properties because of better dispersion (or rendering homogeneous microstructure) of the composite/alloy<br>
 <img src="images/th1.PNG"><br>
