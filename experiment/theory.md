@@ -1,10 +1,10 @@
 <div><div style="float:left;width:60%">Microstructure of a material comprises of various phases, which can be matrix, secondary phase, reinforcement, porosity, and impurity or inclusions. Microstructural features may also show the type of fracture (i.e. brittle or ductile), formation of facets, dimples, valleys, or even depict the shape (for powders, it can be spherical, acicular, faceted, irregular, etc.). So, if we understand how to estimate the grain size, the same concept can be used for estimating the size of powders as well.<br>  
 
 It may be noted that the size, content and distribution of the microstructural features decide the emanating properties of the bulk material. Thus, it is very important to be able to observe the feature shape, and estimate the feature size, and also be able to estimate the content of the second phase (which can be reinforcement or even porosity).<br><br>
-<b>Identification of Features: </b></div><div style="float:left;width:40%;border: solid 1 px black;"> <video width="320" height="240" controls>
+<b>Identification of Features: </b></div><div style="float:left;width:40%;border: solid 1 px black; border: 1px solid black"> <video width="320" height="240" controls>
   <source src="images/exp2-featureSize.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>Video on Feature Size measurement: Porosity, Grain, and Reinforcement</div> </div>
+</video><br>Video on Feature Size measurement:<br> Porosity, Grain, and Reinforcement</div> </div>
 <div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
 The reinforcements or secondary phase can be either be a particulate of rounded shape, or acicular (needle shape, Fig. 1a) or faceted or cuboidal shape or even irregular shape. Or the second phase may be continuous (as a fibre or along the grain boundary (Fig. 1b) or interconnected). So, it is important to observe the nature and morphology of the matrix and the second phase. The size, distribution and content of the second phase is also very important. The second phase may be spherical, but the size of those particles may be coarse (Fig. 1c) or fine (Fig. 1d). And finer particles usually provide superior mechanical properties because of better dispersion (or rendering homogeneous microstructure) of the composite/alloy<br>
 <img src="images/th1.PNG"><br>
