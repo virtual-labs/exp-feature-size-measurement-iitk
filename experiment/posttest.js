@@ -91,7 +91,7 @@
   const myQuestions = [
     
     {
-     question: "1.Which of following can NOT increase resolution (tick all which applies):",  ///// Write the question inside double quotes
+     question: "1. Which of following can NOT increase resolution (tick all which applies):",  ///// Write the question inside double quotes
       answers: {
         a: "increasing incident voltage",                  ///// Write the option 1 inside double quotes
         b: "increased vacuum",                  ///// Write the option 2 inside double quotes
@@ -103,7 +103,7 @@
     },
     
     {
-     question: "2.What is the dark region in this image?<br><img src='images/fig1.PNG'>",  ///// Write the question inside double quotes
+     question: "2. What is the dark region in this image?<br><img src='images/fig1.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",
@@ -114,7 +114,7 @@
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
     {
-     question: "3.What is the dark region in this image?<br><img src='images/fig1a.PNG'>",  ///// Write the question inside double quotes
+     question: "3. What is the dark region in this image?<br><img src='images/fig1a.PNG'>",  ///// Write the question inside double quotes
       answers: {
          a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",
@@ -124,7 +124,7 @@
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
     {
-     question: "4.What is the estimated matrix phase content in the following image?<br><img src='images/fig2.PNG'>",  ///// Write the question inside double quotes
+     question: "4. What is the estimated matrix phase content in the following image?<br><img src='images/fig2.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "30%",                  ///// Write the option 1 inside double quotes
         b: "45%",                  ///// Write the option 2 inside double quotes
@@ -134,7 +134,7 @@
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
     {
-     question: "5.In which case the porosity is of biggest size?<br><img src='images/fig2a.PNG'>",  ///// Write the question inside double quotes
+     question: "5. In which case the porosity is of biggest size?<br><img src='images/fig2a.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "A",                  ///// Write the option 1 inside double quotes
         b: "B",                  ///// Write the option 2 inside double quotes
@@ -144,7 +144,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
     {
-     question: "6.In which case the porosity content is highest?<br><img src='images/fig2a.PNG'>",  ///// Write the question inside double quotes
+     question: "6. In which case the porosity content is highest?<br><img src='images/fig2a.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "A",                  ///// Write the option 1 inside double quotes
         b: "B",                  ///// Write the option 2 inside double quotes
@@ -154,7 +154,7 @@
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
     {
-     question: "7.In which of the following, the grain size is biggest?<br><img src='images/fig2c.PNG'>",  ///// Write the question inside double quotes
+     question: "7. In which of the following, the grain size is biggest?<br><img src='images/fig2c.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "A",                  ///// Write the option 1 inside double quotes
         b: "B",                  ///// Write the option 2 inside double quotes
@@ -164,7 +164,7 @@
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
     {
-     question: "8.In which of the following, the grain size is smallest:<br><img src='images/fig2d.PNG'>",  ///// Write the question inside double quotes
+     question: "8. In which of the following, the grain size is smallest:<br><img src='images/fig2d.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "A",                  ///// Write the option 1 inside double quotes
         b: "B",                  ///// Write the option 2 inside double quotes

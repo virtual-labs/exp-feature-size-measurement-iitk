@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "1.The void portion, or empty spaces, in the material is called: ",  ///// Write the question inside double quotes
+      question: "1. The void portion, or empty spaces, in the material is called: ",  ///// Write the question inside double quotes
       answers: {
         a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-     question: "2.The homogeneous material, which acts as a medium to hold the reinforcement is called: ",  ///// Write the question inside double quotes
+     question: "2. The homogeneous material, which acts as a medium to hold the reinforcement is called: ",  ///// Write the question inside double quotes
       answers: {
         a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",                  ///// Write the option 2 inside double quotes
@@ -114,7 +114,7 @@
     									                  ///// this line
 
 {
-     question: "3.The definite amount of additive used in the bulk material to provide or encourage a response (positive or negative) against a stimulus in a material is called. ",  ///// Write the question inside double quotes
+     question: "3. The definite amount of additive used in the bulk material to provide or encourage a response (positive or negative) against a stimulus in a material is called. ",  ///// Write the question inside double quotes
       answers: {
         a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",                  ///// Write the option 2 inside double quotes
@@ -124,7 +124,7 @@
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
     {
-     question: "4.The presence of un-intended particle or reaction product in the material that alters the predicted behaviour of material is called.",  ///// Write the question inside double quotes
+     question: "4. The presence of un-intended particle or reaction product in the material that alters the predicted behaviour of material is called.",  ///// Write the question inside double quotes
       answers: {
         a: "Matrix",                  ///// Write the option 1 inside double quotes
         b: "Reinforcement",                  ///// Write the option 2 inside double quotes
@@ -134,7 +134,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
     {
-     question: "5.Which of the following has the most superior dispersion of particles?<br><img src='images/p1.PNG'>",  ///// Write the question inside double quotes
+     question: "5. Which of the following has the most superior dispersion of particles?<br><img src='images/p1.PNG'>",  ///// Write the question inside double quotes
       answers: {
         a: "Configuration (a)",                  ///// Write the option 1 inside double quotes
         b: "Configuration (b) ",                  ///// Write the option 2 inside double quotes
@@ -144,7 +144,7 @@
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
     {
-     question: "6.Which one has the biggest grain size among following?<br><img src='images/p2.PNG'>",  ///// Write the question inside double quotes
+     question: "6. Which one has the biggest grain size among following?<br><img src='images/p2.PNG'>",  ///// Write the question inside double quotes
       answers: {
        a: "Configuration (a)",                  ///// Write the option 1 inside double quotes
        b: "Configuration (b) ",                  ///// Write the option 2 inside double quotes
@@ -155,7 +155,7 @@
     },
     
     {
-     question: "7.Magnification of the SE image depends on: ",  ///// Write the question inside double quotes
+     question: "7. Magnification of the SE image depends on: ",  ///// Write the question inside double quotes
       answers: {
        a: "incident voltage",                  ///// Write the option 1 inside double quotes
         b: "Vacuum level ",                  ///// Write the option 2 inside double quotes
@@ -165,7 +165,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
     {
-     question: "8.The SE imaging provides sharper images because of its high ",  ///// Write the question inside double quotes
+     question: "8. The SE imaging provides sharper images because of its high ",  ///// Write the question inside double quotes
       answers: {
        a: "vacuum",                  ///// Write the option 1 inside double quotes
         b: "voltage ",                  ///// Write the option 2 inside double quotes
