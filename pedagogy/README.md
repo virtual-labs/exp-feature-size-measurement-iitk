@@ -27,8 +27,8 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| Student will be able to -   Identify the features (i.e. porosity, grain and reinforcement) | Identify | Recall
-2.| Student will be able to - 	Calculate the feature/grain size | Apply | Calculate
-3.| Student will be able to -   Calculate the content of the phase | Apply | Calculate
+1.| Student will be able to - 	Calculate the feature/grain size | Apply | Calculate
+1.| Student will be able to -   Calculate the content of the phase | Apply | Calculate
 
 
 
@@ -61,9 +61,12 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
-2.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
-3.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
+1.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool
+|| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
+1.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool
+|| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
+1.|  Student will be able to - image the different features of the samples. - measure the dimension of the features such as Porosity, Grain, and reinforcement |Select region of interest<br>Obtain micrograph with optimal contrast<br>Measure the dimensions using the software tool
+|| 1.Identify the pore size in the given image <img src="pedagogy/images/se.png"><br>a.1-3 micro met.<br>b.4-6 micro met.<br>c.9-11 micro met.<br>d.12-15 mirco met.<br><br>2.Identify Reinforcement (2nd phase) in the given image <img src="pedagogy/images/bse.png"><br>a.2-6 micro met.<br>b.1-3 micro met<br>c.7-10 micro met.<br>d.11-13 micro met.
 
 
 
@@ -71,7 +74,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
  <br>
 
-
+ <u> You can add additional TASKS & Assessment Questions <u>
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>

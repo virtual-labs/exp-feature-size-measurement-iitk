@@ -5,7 +5,7 @@
 <b>Discipline | <b>Material Science and Engineering
 :--|:--|
 <b> Lab | <b> Electron Microscopy For Beginners
-<b> Experiment|     <b> 1. Basics of Scanning Electron Microscopy: Secondary Electron and BSE imaging mode
+<b> Experiment|     <b> 1. Feature Size measurement: Porosity, Grain, and Reinforcement
 
 <h5> About the Experiment : </h5> <br>
 
@@ -13,7 +13,7 @@ Type here: berif description of this experiment
 
 <b>Name of Developer | <b> Prof Kantesh Balani
 :--|:--|
-<b> Institute | <b> Indian Institute Of Technology Kanpur
+<b> Institute | <b> IIT Kanpur
 <b> Email id|     <b> kbalani@iitk.ac.in
 <b> Department | Material Science and Engineering
 

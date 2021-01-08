@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid main-wrapper">
+        <div class="row ucontrol">
+            <div class="col-3">
+                <div class="panel mb-1">
+                    <div class="panel-head" id="inst">
+                        Choose One
+                    </div>
+                    <div id="typer">
+                        <button type="button" id=first class="but w-100 blue" onclick="first()">Identify Porosity &
+                            Reinforcement</button><br><br>
+                        <button type="button" id=sec class="but w-100 blue" onclick="sec()">Calculate Feature
+                            Size</button><br><br>
+                        <button type="button" id=third class="but w-100 blue" onclick="third()">Calculate the content of
+                            the phase</button><br><br>
+                    </div>
+                </div>
+
+                <!-- Part - 1  -->
+
+                <div class="panel padd" id="part-1">
+                    <p>Choose the mode:</p>
+                    <div class="row line-btn">
+                        <div class="col-1"></div>
+                        <button class="but sm col-4 mod" id="se" mode="1" onclick="modeSel(1,this)">SE</button>
+                        <div class="col-2"></div>
+                        <button class="but sm col-4 mod" id="bse" mode="2" onclick="modeSel(2,this)">BSE</button>
+                        <div class="col-1"></div>
+
+                    </div>
+                    <br>
+                    <button type="button" id="load1" class="but sm w-100 blue" onclick="load1()" disabled>Load
+                        Sample</button>
+
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Focus<br></label>
+                        <input type="range" min="0" max="20" value="5" class="slider" id="imgblur1"
+                            onchange="editImage1(this.value)" disabled>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Contrast</label>
+                        <input type="range" min="1" max="20" value="5" class="slider" id="clight1"
+                            onchange="Contrast1(this.value)" disabled>
+                    </div>
+                    <button class="but sm blue w-100" id="calBut" onclick="calibrate1()" disabled>Calibrate the
+                        Image</button>
+                    <br>
+                    <p id="ModeLine">&nbsp;</p>
+                    <table class="table-responsive table-striped ">
+                        <tbody>
+                            <tr>
+                                <td><button class="button  point" onclick="butClick(0,this)"
+                                        disabled>&nbsp;a&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(1,this)"
+                                        disabled>&nbsp;b&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(2,this)"
+                                        disabled>&nbsp;c&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(3,this)"
+                                        disabled>&nbsp;d&nbsp;</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="button  point" onclick="butClick(4,this)"
+                                        disabled>&nbsp;e&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(5,this)"
+                                        disabled>&nbsp;f&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(6,this)"
+                                        disabled>&nbsp;g&nbsp;</button></td>
+                                <td><button class="button  point" onclick="butClick(7,this)"
+                                        disabled>&nbsp;h&nbsp;</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <button id="butVerify" class="but blue col-4" onclick="verify()" disabled>Verify</button>
+                        <div class="col-2"></div>
+                        <button id="butCheck" class="but blue col-4" onclick="checkAns()" disabled>Check Answer</button>
+                        <p id="Answer"></p>
+                    </div>
+                    <button type="button" class="but w-100 blue" onclick="location.reload();">Restart</button>
+
+                </div>
+
+
+                <!-- Part -2  -->
+
+
+                <div class="panel padd" id=part-2>
+                    <button type="button" id=load class="but sm w-100 blue" onclick="fon()">Load Sample</button>
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Magnification</label>
+                        <!-- <input type="range" min="1" max="6" value="1" class="slider" id="mag"> -->
+                        <form id="radio">
+                            <div class="form-check form-check-inline">
+                                <input class="loadEnable form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="1" onclick="changeImage(this.value)" disabled>
+                                <label class="form-check-label" for="inlineRadio1">500 X</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="loadEnable form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="2" onclick="changeImage(this.value)" disabled>
+                                <label class="form-check-label" for="inlineRadio1">1000 X</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="loadEnable form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="3" onclick="changeImage(this.value)" disabled>
+                                <label class="form-check-label" for="inlineRadio1">2500 X</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="loadEnable form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1" value="4" onclick="changeImage(this.value)" disabled>
+                                <label class="form-check-label" for="inlineRadio1">5000 X</label>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Focus<br></label>
+                        <input type="range" min="0" max="10" value="5" class="loadEnable slider" id="imgblur"
+                            onchange="editImage(this.value)" disabled>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Contrast</label>
+                        <input type="range" min="1" max="10" value="5" class="loadEnable slider" id="clight"
+                            onchange="Contrast(this.value)" disabled>
+                    </div>
+                    <button class="but sm blue w-100 loadEnable" onclick="calibrate()" disabled>Calibrate the
+                        Image</button>
+                    <br>
+                    <p>Select the type of line and then make the two end point of the line.</p>
+
+                    <div class="row line-btn">
+                        <button id=planeb class="but col-4 line" onclick="val1(1, this),drawl()" disabled>
+                            <div id=plane>Plane</div>
+                        </button>
+                        <button id="dottedb" class="but col-4 line" onclick="val1(2, this),drawl()" disabled>
+                            <div id=dotted>Dotted</div>
+                        </button>
+                        <button id=dashedb class="but col-4 line" onclick="val1(3, this),drawl()" disabled>
+                            <div id=dashed>Dashed</div>
+                        </button>
+                    </div>
+                    <br>
+                    <center>
+                        Enter the measured size here
+                        <input
+                            style="border-radius:15px;border:1px solid black;width: 120px;height: 30px;background-color: rgba(5, 3, 0, 0.322);font-size: large;"
+                            type="number" id="fname" name="size"> &#xb5;m<br>
+                        <br>
+                        <button id="checksizeb" type="button" class="but sm w-100 blue" onclick="checksize()"
+                            disabled>Check
+                            Size</button>
+                        <br>
+                        Size of the line : <div
+                            style="border-radius:15px;border:1px solid black;width: 200px;height: 30px;background-color: rgba(5, 3, 0, 0.322);font-size: large;"
+                            id="output1">&nbsp; </div>
+                        Expected Average Answer : <div
+                            style="border-radius:15px;border:1px solid black;width: 120px;height: 30px;background-color: rgba(5, 3, 0, 0.322);font-size: large;"
+                            id="output">&nbsp;</div>
+                    </center>
+                    <button type="button" class="but w-100 blue" onclick="location.reload();">Restart</button>
+                </div>
+
+
+                <!-- Part -3  -->
+                <div class="panel padd" id="part-3">
+
+                    <button type="button" id="load3" class="but sm w-100 blue" onclick="load3()">Load
+                        Sample</button>
+
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Focus<br></label>
+                        <input type="range" min="0" max="20" value="5" class="slider" id="imgblur3"
+                            onchange="editImage3(this.value)" disabled>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="formControlRange">Contrast</label>
+                        <input type="range" min="1" max="20" value="5" class="slider" id="clight3"
+                            onchange="Contrast3(this.value)" disabled>
+                    </div>
+                    <button class="but sm blue w-100" id="calBut3" onclick="calibrate3()" disabled>Calibrate the
+                        Image</button>
+                    <br>
+                    Enter the number of points below that are coinciding with the grid points. Points in one grid=25.
+                    <br>
+                    <div class=" ml-1" id="">
+                        <input id="reading" value="0" style="width: 3rem;">
+                        &nbsp;&nbsp;
+                        <button id="n-read" class="but blue" onclick="NextRead()" disabled>Next Reading</button>
+                        <button id="s-read" class="but blue" onclick="Submit3()">Submit</button>
+                    </div>
+
+
+                    <br>
+                    <div>Enter your answer : <input id="ans3" value="0" style="width: 3rem;"></div>
+                    <button class="but blue" onclick="CheckAns3()">Check Answer</button>
+                    <br>
+                    <p>The expected answer is :<strong id="answer3"> </strong></p>
+
+
+
+
+
+
+
+
+                    <!-- <div id="newElementId">Enter the number of points coinciding with the points on the grid :
+                        <div>
+                            <input type="number" style="width: 3rem;" id="n0" value=0> Total Points = 25;
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="dynamicCheck">
+                                <input type="button" value="Next Grid" onclick="createNewElement();" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <strong>
+                            <div class="p3-ans" id="ans-3">
+                                Enter Answer here:
+                            </div><input
+                                style="border-radius:15px;border:1px solid black;width: 120px;height: 30px;background-color: rgba(5, 3, 0, 0);font-size: large;"
+                                type="number" id="p3-name" name="p3-size">
+                        </strong>
+                        <div class="p3-ans" id="cor-ans-3"></div>
+
+                        <button id="butCheck3" class="but blue" onclick="checkAns3()" disabled>Check
+                            Answer</button>
+                    </div> -->
+                    <button type="button" class="but w-100 blue" onclick="location.reload();">Restart</button>
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col-3">
+                <div class="panel">
+                    <img id="diagram" src="./images/sem.jpg" style="width: 100%;height: 590px;">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="panel  padd">
+                    <div>
+                        <img id="diagram2" src="./images/sample.png">
+                        <img id="modeImage" src="./images/bse-layout.png"
+                            style="position: absolute;position:absolute;display: none;top: 1%;">
+                        <canvas style="position:absolute;top: 1%;left: 5%;" onclick="draw(event)" id="myCanvas" width=50
+                            height=50></canvas>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/zoom.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/part-1.js"></script>
+    <script src="./js/part-3.js"></script>
+    <script>
+
+        function first() {
+            document.getElementById("inst").innerHTML = "Instructions";
+            document.getElementById("first").style.display = "none";
+            document.getElementById("third").style.display = "none";
+            document.getElementById("sec").style.display = "none";
+            document.getElementById("typer").innerHTML = "1. Choose the mode <br>2. Load the sample <br> 3. Set Focus and Saturation <br> 4. Calibrate the image<br> 5. Click on the points according to mode selected <br>6. Verify your answer.";
+            document.getElementById("part-1").style.display = "block";
+        }
+
+
+        function sec() {
+            document.getElementById("inst").innerHTML = "Instructions";
+            document.getElementById("first").style.display = "none";
+            document.getElementById("third").style.display = "none";
+            document.getElementById("sec").style.display = "none";
+            document.getElementById("typer").innerHTML = "1. Load the Sample and wait for image to load.<br> 2. Select magnification level.<br> 3. Set focus and saturation.<br>4. Calibrate the image.<br>5. Select the type of line you want to draw.<br>6. Click on two places to draw the line.<br>7. Check Size of the feature.";
+            document.getElementById("part-2").style.display = "block";
+        }
+        function third() {
+            document.getElementById("inst").innerHTML = "Instructions";
+            document.getElementById("first").style.display = "none";
+            document.getElementById("third").style.display = "none";
+            document.getElementById("sec").style.display = "none";
+            document.getElementById("typer").innerHTML = "1. Load the sample <br>2. Set the contrast and focus to appropriate level. <br> 3. Calibrate the image. <br>4. Follow the instructions given below and try to enter atleast 5 reading before final result.<br>5. Press {Next Reading} button to take more readings. <b>Please note the reading before pressing {Submit} button.</b>";
+            document.getElementById("part-3").style.display = "block";
+            document.getElementById("ans-3").style.display = "none";
+            document.getElementById("cor-ans-3").style.display = "none";
+            document.getElementById("p3-name").style.display = "none";
+
+        }
+    </script>
+</body>
+
+</html>
