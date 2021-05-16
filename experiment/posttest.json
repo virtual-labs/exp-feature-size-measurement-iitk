@@ -1,0 +1,74 @@
+[{
+	"question": "1. Which of following can NOT increase resolution (tick all which applies):",
+	"answers": {
+		"a": "increasing incident voltage",
+		"b": "increased vacuum",
+		"c": "increasing beam spot size",
+		"d": "decreasing working distance",
+		"e": "All of the Above"
+	},
+	"correctAnswer": "e"
+}, {
+	"question": "2. What is the dark region in this image?<br><img src='images/fig1.PNG'>",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Grain",
+		"d": "Porosity"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "3. What is the dark region in this image?<br><img src='images/fig1a.PNG'>",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Grain",
+		"d": "Porosity"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "4. What is the estimated matrix phase content in the following image?<br><img src='images/fig2.PNG'>",
+	"answers": {
+		"a": "30%",
+		"b": "45%",
+		"c": "60%",
+		"d": "75 %"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "5. In which case the porosity is of biggest size?<br><img src='images/fig2a.PNG'>",
+	"answers": {
+		"a": "A",
+		"b": "B",
+		"c": "C",
+		"d": "D"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "6. In which case the porosity content is highest?<br><img src='images/fig2a.PNG'>",
+	"answers": {
+		"a": "A",
+		"b": "B",
+		"c": "C",
+		"d": "D"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "7. In which of the following, the grain size is biggest?<br><img src='images/fig2c.PNG'>",
+	"answers": {
+		"a": "A",
+		"b": "B",
+		"c": "C",
+		"d": "D"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "8. In which of the following, the grain size is smallest:<br><img src='images/fig2d.PNG'>",
+	"answers": {
+		"a": "A",
+		"b": "B",
+		"c": "C",
+		"d": "D"
+	},
+	"correctAnswer": "b"
+}]
