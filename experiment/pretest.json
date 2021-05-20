@@ -1,0 +1,73 @@
+[{
+	"question": "1. The void portion, or empty spaces, in the material is called: ",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Impurity",
+		"d": "Porosity"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. The homogeneous material, which acts as a medium to hold the reinforcement is called: ",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Impurity",
+		"d": "Porosity"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. The definite amount of additive used in the bulk material to provide or encourage a response (positive or negative) against a stimulus in a material is called. ",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Impurity",
+		"d": "Porosity"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "4. The presence of un-intended particle or reaction product in the material that alters the predicted behaviour of material is called.",
+	"answers": {
+		"a": "Matrix",
+		"b": "Reinforcement",
+		"c": "Impurity",
+		"d": "Porosity"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "5. Which of the following has the most superior dispersion of particles?<br><img src='images/p1.PNG'>",
+	"answers": {
+		"a": "Configuration (a)",
+		"b": "Configuration (b) ",
+		"c": "Configuration (c)",
+		"d": "Configuration (d)"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "6. Which one has the biggest grain size among following?<br><img src='images/p2.PNG'>",
+	"answers": {
+		"a": "Configuration (a)",
+		"b": "Configuration (b) ",
+		"c": "Configuration (c)",
+		"d": "Configuration (d)"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "7. Magnification of the SE image depends on: ",
+	"answers": {
+		"a": "incident voltage",
+		"b": "Vacuum level ",
+		"c": "scan area of sample",
+		"d": "working distance"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "8. The SE imaging provides sharper images because of its high ",
+	"answers": {
+		"a": "vacuum",
+		"b": "voltage ",
+		"c": "working distance",
+		"d": "depth-of-field"
+	},
+	"correctAnswer": "d"
+}]
